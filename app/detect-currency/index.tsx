@@ -67,7 +67,7 @@ const DetectionScreen: React.FC = () => {
         throw new Error('Base64 content is empty or malformed.');
       }
 
-      const response = await fetch('https://vision.googleapis.com/v1/images:annotate?key=AIzaSyBKm-24tkg_PAXjDky_YMSG_EvxeSZUWn0', {
+      const response = await fetch('https://vision.googleapis.com/v1/images:annotate?key=ADD_API_KEY, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
